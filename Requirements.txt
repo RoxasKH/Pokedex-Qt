@@ -1,0 +1,7 @@
+Da QT 6, QtCharts non ha più un namespace proprio ma utilizza direttamente quello di qt.
+
+https://doc.qt.io/qt-6/qtcharts-changes-qt6.html
+
+Il progetto è stato programmato, compilato e testato su Windows 10 64-bit e Linux Mint 64-bit con QtCreator 9.0.1 basato su Qt 6.4.0 (basato mingw su windows e gcc su linux, inoltre il package preciso scelto all'installazione è stato qt 6.4.2).
+
+La clausola "using namespace QtCharts;" non è dunque presente nel codice poichè causava un errore di compilazione; viceversa l'assenza della clausola potrebbe causarne su versioni di Qt precedenti alla 6, quindi è necessaria una versione di Qt dalla 6 in su affinchè il codice compili correttamente.
