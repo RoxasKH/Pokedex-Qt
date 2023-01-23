@@ -1,5 +1,5 @@
-# Pokedex QT
-> A simple Pokedex application written with the help of the C++ QT framework.
+# Pokedex Qt
+> A simple Pokedex application written with the help of the C++ Qt framework.
 
 ![Pokedex Pokedex Showcase](screenshots/pokedex_showcase.png?raw=true "Showcase of the pokedex screen")
 ![Pokedex Compare Showcase](screenshots/pokedex_compare_showcase.png?raw=true "Showcase of the compare screen")
